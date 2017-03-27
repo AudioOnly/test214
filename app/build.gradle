@@ -25,6 +25,12 @@ android {
         }
     }
 
+//    This is important, it will run lint checks but won't abort build
+//    这很重要，它会运行lint检查，但不会中止构建
+    lintOptions {
+        abortOnError false
+    }
+
 
 }
 
