@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:test="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <com.yao.rui.test214.views.MyText
+        android:id="@id/my_text_v_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        test:textColor="@android:color/holo_red_dark"
+        test:textSize="13dp"
+        test:textStr="什么鬼">
+
+    </com.yao.rui.test214.views.MyText>
+</LinearLayout>
