@@ -37,6 +37,8 @@ public class MyText extends View {
         mPaint.setTextSize(textSize);
         //返回一个绑定资源结束的信号给资源
         array.recycle();
+
+        // 添加 修改判断 命令git diff origin/master master ，输出的结果
     }
 
     @Override
